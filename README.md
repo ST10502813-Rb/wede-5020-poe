@@ -1,9 +1,9 @@
 # Project Title
-Your project's title
+poe assignment
 
 ## Student Information
-**Student number:** Your student number <br>
-**Student Name:** Your full name
+**Student number:** st10502813 <br>
+**Student Name:** Onkgopotse matjane
 
 ## Project Overview
 
