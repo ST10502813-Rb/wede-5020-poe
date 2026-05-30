@@ -1,0 +1,50 @@
+body, html{
+
+        animation: colorChange 20s infinite alternate;
+     }
+
+     p{
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+
+        font-size: x-large;
+     }
+
+     a{
+
+        font-size: larger;
+     }
+
+     nav{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 3rem;
+        font-family: Arial, sans-serif;
+        color: white;
+        text-align: center;
+
+    }
+
+
+    @keyframes colorChange{
+
+        0%{background-color: green;}
+        25%{background-color: red;}
+        50%{background-color: blue;}
+        75%{background-color: green;}
+        100%{background-color: red}
+    }
+
+    </style> 
+
+</head>
+<body>
+    
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Payment Gateway Form Design using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
