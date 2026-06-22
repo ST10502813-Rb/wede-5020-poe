@@ -34,3 +34,13 @@ body, html{
         75%{background-color: green;}
         100%{background-color: red}
     }
+
+    img{
+        display: block;
+        margin: 35px auto;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+
+
+    }
