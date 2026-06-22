@@ -38,3 +38,9 @@ sir i have also used multiplr styles.css files for each page sir to make the wid
 
 i have also added a business email and a payment page after donate now is clicked on the services page sir.
 
+part 3 infromation:
+
+ST10502813
+Onkgopotse Matjane
+
+sir in my part three i have added a modual or an infromation popup on the index page that contains infromation anout the organisation i have also brough back the event calander sir i figured out how to do it sir and it updates with the current days i have alos added accordions to the about page sir that has the infromation about the three charities that came together to form hope core
