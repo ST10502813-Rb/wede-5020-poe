@@ -13,11 +13,6 @@
     
 <img src="img/image.jpg" alt="our comapny logo" width="200" height="200">
 
-<form class="search-bar">
-<input type="home page" placeholder=" "/>
-<button> search</button>
-</form>
-
 <nav>
     
 <li> <a href="index.html" target="_self">Home</a> </li>
@@ -25,15 +20,139 @@
 <li> <a href="enquiry.html" target="_self">enquire</a> </li>
 <li> <a href="contact.html" target="_self">contact us</a> </li>
 <li> <a href="services.html" target="_self">services</a> </li>
+<li> <a href="evencalander.html" target="_self">personal calander</a> </li>
 
-</nav>
 
 <h1>Enquiry</h1>
 
-    <p>We have partnered with multiple orginisations who share
-        our vision so we have their infromation about them and what they thier 
-        mission and vision are what do they specialize in along with thier
-        contact infromation</p>
+    <p>Fun runs, water drives, clothing donationts and litter cleaning from either our streets
+        to our rivers that some of us have as our only sources of drinking water. These are some of the 
+        events we organise every month to do what we belive is our part to our community.
+        we accept volunters.
+    </p>
+
+    <p>For people who wish to volunter and asist is for the month but dont know how you can refer
+        to our calander that is updated every month with our monthly charity events, people who wish to 
+        volunter may register down below we how to see you there with us.
+    </p>
+
+<h2>MONTHES volunter Registration</h2>
+
+<div class="main-container">
+
+        <form action="FORM_ID" method="POST">
+    
+            <div class="form-header">
+                <em><h2 class="form-title">volunter Registration</h2></em>
+                <p class="form-description">
+                    To register please fill in all required infromation
+                </p>
+            </div>
+
+            <div class="form-group">
+                <label for="fullname" class="form-label">Full Name*</label>
+                <input
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    class="form-input"
+                    required
+                />
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email Address*</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-input"
+                    required
+                />
+            </div>
+
+            <div class="form-group">
+                <label for="phone" class="form-label"
+                    >Phone Number (Optional)</label
+                >
+                <input type="text" name="phone" id="phone" class="form-input" />
+            </div>
+
+            <div class="form-group">
+                <label for="num-attendees" class="form-label"
+                    >Number of Attendees (Optional)</label
+                >
+                <input
+                    type="number"
+                    name="num-attendees"
+                    id="num-attendees"
+                    class="form-input"
+                />
+            </div>
+
+            <div class="form-group">
+                <label for="preferred-session" class="form-label"
+                    >Select Preferred Session/City</label
+                >
+                <select
+                    name="preferred-session"
+                    id="preferred-session"
+                    class="form-select"
+                >
+                    <option value="session-1">Session 1 - pretoria</option>
+                    <option value="session-2">Session 2 - johanessburg</option>
+                </select>
+            </div>
+
+            <!-- Optional Extras -->
+            <div class="form-group">
+                <label for="dietary-preferences" class="form-label"
+                    >Dietary Preferences</label
+                >
+                <select
+                    name="dietary-preferences"
+                    id="dietary-preferences"
+                    class="form-select"
+                >
+                    <option value="none">None</option>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="gluten-free">Gluten-Free</option>
+                    <option value="halal">Halal</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="accessibility-needs" class="form-label"
+                    >Accessibility Needs</label
+                >
+                <textarea
+                    name="accessibility-needs"
+                    id="accessibility-needs"
+                    rows="3"
+                    class="form-textarea"
+                ></textarea>
+            </div>
+
+            <!-- Comments or Questions -->
+            <div class="form-group">
+                <label for="comments" class="form-label"
+                    >Comments or Questions</label
+                >
+                <textarea
+                    name="comments"
+                    id="comments"
+                    rows="5"
+                    class="form-textarea"
+                ></textarea>
+            </div>
+            
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Register Now</button>
+        </form>
+    </div>
+ </div>
 
 <footer>
 
@@ -46,6 +165,8 @@
 <em><p>+27 154 7935</p></em>
 
 <em><p>27 milk dud road</p></em>
+
+</nav>
 
 </footer>
 
