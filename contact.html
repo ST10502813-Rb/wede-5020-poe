@@ -11,11 +11,6 @@
     
 <img src="img/image.jpg" alt="our comapny logo" width="200" height="200">
 
-<form class="search-bar">
-<input type="home page" placeholder=" "/>
-<button> search</button>
-</form>
-
 <nav>
     
 <li> <a href="index.html" target="_self">Home</a> </li>
@@ -23,8 +18,8 @@
 <li> <a href="enquiry.html" target="_self">enquire</a> </li>
 <li> <a href="contact.html" target="_self">contact us</a> </li>
 <li> <a href="services.html" target="_self">services</a> </li>
+<li> <a href="evencalander.html" target="_self">personal calander</a> </li>
 
-</nav>
 
 <h1>Contact us</h1>
 
@@ -41,6 +36,71 @@
         by using our email or calling our business phone number printed underneath thank you.
     </p>
 
+    <p>If you wish to contact us with an qustions that you may have please fill in the contact
+        form with any questions you may have with your number or email address and we shall get abck to
+        you as soon as we can.
+    </p>
+
+    <div class="main-container">
+
+        <form action="FORM_ID" method="POST">
+    
+            <div class="form-header">
+                <em><h2 class="form-title">Contact form</h2></em>
+                <p class="form-description">
+                    Please fill in all yout infromation along with any enquiries that you may have.
+                </p>
+            </div>
+
+            <div class="form-group">
+                <label for="fullname" class="form-label">Full Name*</label>
+                <input
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    class="form-input"
+                    required
+                />
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email Address*</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-input"
+                    required
+                />
+            </div>
+
+            <div class="form-group">
+                <label for="phone" class="form-label"
+                    >Phone Number (Optional)</label
+                >
+                <input type="text" name="phone" id="phone" class="form-input" />
+            </div>
+
+            <!-- Comments or Questions -->
+            <div class="form-group">
+                <label for="comments" class="form-label"
+                    >Comments or Questions</label
+                >
+                <textarea
+                    name="comments"
+                    id="comments"
+                    rows="5"
+                    class="form-textarea"
+                ></textarea>
+            </div>
+            
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">submit enquiry now</button>
+        </form>
+    </div>
+ </div>
+
 
     
 <footer>
@@ -54,6 +114,8 @@
 <em><p>+27 154 7935</p></em>
 
 <em><p>27 milk dud road</p></em>
+
+</nav>
 
 </footer>
 
