@@ -37,14 +37,21 @@ body, html{
         100%{background-color: red}
     }
 
-    </style> 
+    img{
+        display: block;
+        margin: 35px auto;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
 
-</head>
-<body>
-    
-<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Payment Gateway Form Design using HTML and CSS | Codehal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+
+    }
+
+    details{
+        width: 65%;
+        font-size: x-large;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+
